@@ -1,8 +1,8 @@
+https://github.com/djungelorm/sphinx-tabs/releases/download/v1.1.13/sphinx-tabs-1.1.13.tar.gz
+
 sphinx
 cloud_sptheme
 
 # support for http://wavedrom.com
 sphinxcontrib-wavedrom
-
-https://github.com/djungelorm/sphinx-tabs/releases/download/v1.1.13/sphinx-tabs-1.1.13.tar.gz
 
