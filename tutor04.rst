@@ -43,8 +43,8 @@ a	b	c = a AND b
 AND Gate
 
 .. image:: img/and_gate.png
-    :height: 100px
-    :align: center
+    :height: 200px
+    :align: left
 
 OR Operation
 ------------
@@ -65,8 +65,8 @@ a	b	c = a OR b
 OR Gate
 
 .. image:: img/or_gate.png
-    :height: 100px
-    :align: center
+    :height: 200px
+    :align: left
 
 NOT Operation
 -------------
@@ -84,8 +84,8 @@ a	c = NOT a
 NOT Gate
 
 .. image:: img/not_gate.png
-    :height: 100px
-    :align: center
+    :height: 200px
+    :align: left
 
 Laws of Boolean Algebra
 =======================
