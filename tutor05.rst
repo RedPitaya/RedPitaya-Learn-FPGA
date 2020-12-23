@@ -22,16 +22,9 @@ a	b	c = a NAND b
 
 NAND Gate
 
-.. image:: https://raw.githubusercontent.com/victorhkr/Documentation_test/master/2000px-Nand-gate-en.png
+.. image:: img/2000px-Nand-gate-en.png
     :height: 100px
-    :width: 200 px
-    :align: left
-
-|
-|
-|
-|
-|
+    :align: center
 
 NOR Gate
 ========
@@ -51,16 +44,9 @@ a	b	c = a NOR b
 
 NOR Gate
 
-.. image:: https://raw.githubusercontent.com/victorhkr/Documentation_test/master/1200px-NOR_ANSI_Labelled.svg.png
+.. image:: img/1200px-NOR_ANSI_Labelled.svg.png
     :height: 100px
-    :width: 200 px
-    :align: left
-
-|
-|
-|
-|
-|
+    :align: center
 
 XOR Gate
 ========
@@ -78,16 +64,9 @@ a	b	c = a XOR b
 
 XOR Gate
 
-.. image:: https://raw.githubusercontent.com/victorhkr/Documentation_test/master/Xor-gate-en.svg.png
+.. image:: img/Xor-gate-en.svg.png
     :height: 100px
-    :width: 200 px
-    :align: left
-
-|
-|
-|
-|
-|
+    :align: center
 
 XNOR Gate
 =========
@@ -105,8 +84,7 @@ a	b      c = a XNOR b
 
 XNOR Gate
 
-.. image:: https://raw.githubusercontent.com/victorhkr/Documentation_test/master/2000px-Xnor-gate-en.svg.png
+.. image:: img/2000px-Xnor-gate-en.svg.png
     :height: 100px
-    :width: 200 px
-    :align: left
+    :align: center
 

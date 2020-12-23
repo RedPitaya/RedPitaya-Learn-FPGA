@@ -6,20 +6,9 @@ A Boolean function is a function that has n variables or entries, so it has :mat
 
 Digital circuit of f(a,b,c)
 
-.. image:: https://raw.githubusercontent.com/victorhkr/Documentation_test/master/function.png
+.. image:: img/function.png
     :height: 200px
-    :width: 400 px
-    :align: left
-
-|
-|
-|
-|
-|
-|
-|
-|
-|
+    :align: center
  
 Truth table of the function
 

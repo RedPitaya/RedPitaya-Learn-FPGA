@@ -17,22 +17,10 @@ Clone FPGA GitHub repository
 
 Go to the `Red Pitaya GitHub <https://github.com/RedPitaya/RedPitaya>`_ site, and download the ZIP folder of this project.
  
-.. image:: https://raw.githubusercontent.com/victorhkr/Documentation_test/master/clonerepo1.png
+.. image:: img/clonerepo1.png
     :height: 200px
-    :width: 500 px
-    :align: left
+    :align: center
 
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
 
 Make a FPGA project
 -------------------
@@ -47,29 +35,9 @@ Go to the downloaded ZIP location and extract it. You will enter the fpga folder
     . /opt/Xilinx/Vivado/2017.2/settings64.sh
     make project PRJ=v0.94
 
-.. image:: https://raw.githubusercontent.com/victorhkr/Documentation_test/master/comandoslinux.png
+.. image:: img/comandoslinux.png
     :height: 400px
-    :width: 500 px
-    :align: left
-
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
+    :align: center
 
 Create a source file
 --------------------
@@ -130,29 +98,10 @@ Edit top file
 
 You will have to edit the **red_pitaya_top.sv** file. Comment led and exp part as in the image.
 
-.. image:: https://raw.githubusercontent.com/victorhkr/Documentation_test/master/fpga_example_comments.png
+.. image:: img/fpga_example_comments.png
     :height: 400px
-    :width: 500 px
-    :align: left
+    :align: center
 
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
 
 Now insert this code in "red_pitaya_top.sv" .
 
@@ -168,29 +117,10 @@ Now insert this code in "red_pitaya_top.sv" .
         .out             (led_o           )  // output
         );
 
-.. image:: https://raw.githubusercontent.com/victorhkr/Documentation_test/master/red_pitaya_top_code_insert.png
+.. image:: img/red_pitaya_top_code_insert.png
     :height: 400px
-    :width: 500 px
-    :align: left
+    :align: center
 
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
 
 Exp_p_dir and exp_n_dir are the direction of the expansion connector. One means it is an input and zero an output. The next part of the code is the instantiation of the calculator module.
 

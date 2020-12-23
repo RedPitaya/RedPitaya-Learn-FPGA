@@ -42,16 +42,9 @@ a	b	c = a AND b
 
 AND Gate
 
-.. image:: https://raw.githubusercontent.com/victorhkr/Documentation_test/master/and_gate.png
+.. image:: img/and_gate.png
     :height: 100px
-    :width: 200 px
-    :align: left
-
-|
-|
-|
-|
-|
+    :align: center
 
 OR Operation
 ------------
@@ -71,16 +64,9 @@ a	b	c = a OR b
 
 OR Gate
 
-.. image:: https://raw.githubusercontent.com/victorhkr/Documentation_test/master/or_gate.png
+.. image:: img/or_gate.png
     :height: 100px
-    :width: 200 px
-    :align: left
-
-|
-|
-|
-|
-|
+    :align: center
 
 NOT Operation
 -------------
@@ -97,16 +83,9 @@ a	c = NOT a
 
 NOT Gate
 
-.. image:: https://raw.githubusercontent.com/victorhkr/Documentation_test/master/not_gate.png
+.. image:: img/not_gate.png
     :height: 100px
-    :width: 200 px
-    :align: left
-
-|
-|
-|
-|
-|
+    :align: center
 
 Laws of Boolean Algebra
 =======================

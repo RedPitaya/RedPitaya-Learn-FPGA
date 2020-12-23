@@ -10,22 +10,9 @@ Clone FPGA GitHub repository
 
 Go to the `Red Pitaya GitHub <https://github.com/RedPitaya/RedPitaya>`_ site, and download the ZIP folder of this project.
  
-.. image:: https://raw.githubusercontent.com/victorhkr/Documentation_test/master/clonerepo1.png
+.. image:: img/clonerepo1.png
     :height: 200px
-    :width: 500 px
-    :align: left
-
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
+    :align: center
 
 *******************
 Make a FPGA project
@@ -41,81 +28,21 @@ Go to the downloaded ZIP location and extract it. You will enter the fpga folder
     . /opt/Xilinx/Vivado/2017.2/settings64.sh
     make project PRJ=v0.94
 
-.. image:: https://raw.githubusercontent.com/victorhkr/Documentation_test/master/comandoslinux.png
+.. image:: img/comandoslinux.png
     :height: 400px
-    :width: 500 px
-    :align: left
-
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
+    :align: center
 
 For this project you will only have to edit the **red_pitaya_top.sv** file. In the beggining of the file edit the port **led_o** assignment. Write the port as an **output logic**.
 
-.. image:: https://raw.githubusercontent.com/victorhkr/Documentation_test/master/outputled1.png
+.. image:: img/outputled1.png
     :height: 400px
-    :width: 500 px
-    :align: left
-
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
+    :align: center
 
 Now edit this part of the file and comment the **led_o** port.
 
-.. image:: https://raw.githubusercontent.com/victorhkr/Documentation_test/master/commentled.png
+.. image:: img/commentled.png
     :height: 400px
-    :width: 500 px
-    :align: left
-
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
+    :align: center
 
 Finally insert this code at the end of the module that has a purpose of led blinking. Input that before **endmodule: red_pitaya_top**.
 
@@ -133,107 +60,27 @@ Finally insert this code at the end of the module that has a purpose of led blin
     assign led_o[0] = led; // assign the register to the led output
 
 
-.. image:: https://raw.githubusercontent.com/victorhkr/Documentation_test/master/codigoled.png
+.. image:: img/codigoled.png
     :height: 400px
-    :width: 500 px
-    :align: left
-
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
+    :align: center
 
 Now you have to start Synthesis, Implementation and Write bitstream. Press the button to start the synthesization.
 
-.. image:: https://raw.githubusercontent.com/victorhkr/Documentation_test/master/sith.png
+.. image:: img/sith.png
     :height: 400px
-    :width: 500 px
-    :align: left
-
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
+    :align: center
 
 After finished synthesis. Start Implementation.
 
-.. image:: https://raw.githubusercontent.com/victorhkr/Documentation_test/master/implementation.png
+.. image:: img/implementation.png
     :height: 400px
-    :width: 500 px
-    :align: left
-
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
+    :align: center
 
 Finished Implementation. Start Write bitstream.
 
-.. image:: https://raw.githubusercontent.com/victorhkr/Documentation_test/master/bitstream.png
+.. image:: img/bitstream.png
     :height: 400px
-    :width: 500 px
-    :align: left
-
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
+    :align: center
 
 Now you have the bitstream file **red_pitaya_top.bit** located in .../fpga/prj/v0.94/project/repitaya.runs/impl_1
 

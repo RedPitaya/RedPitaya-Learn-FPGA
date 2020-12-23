@@ -31,20 +31,9 @@ The Karnaugh map is formed with the terms of the truth table:
 
 Karnaugh Map
 
-.. image:: https://raw.githubusercontent.com/victorhkr/Documentation_test/master/karnaughOR.png
+.. image:: img/karnaughOR.png
     :height: 200px
-    :width: 200 px
-    :align: left
-
-|
-|
-|
-|
-|
-|
-|
-|
-|
+    :align: center
 
 Grouping the terms in red give: !a X b + a X b = b
 
@@ -71,20 +60,9 @@ a	b	c	f(a,b,c)
 
 Karnaugh Map
 
-.. image:: https://raw.githubusercontent.com/victorhkr/Documentation_test/master/karnaughfunction.png
+.. image:: img/karnaughfunction.png
     :height: 200px
-    :width: 250 px
-    :align: left
-
-|
-|
-|
-|
-|
-|
-|
-|
-|
+    :align: center
 
 !a X b X c is repeated twice.
 
@@ -119,25 +97,9 @@ a	b	c	d	f(a,b,c,d)
 
 Karnaugh Map
 
-.. image:: https://raw.githubusercontent.com/victorhkr/Documentation_test/master/karnaughfunction4var.png
+.. image:: img/karnaughfunction4var.png
     :height: 300px
-    :width: 300 px
-    :align: left
-
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
+    :align: center
 
 Grouping the terms in green give: !a X b X !d
 
