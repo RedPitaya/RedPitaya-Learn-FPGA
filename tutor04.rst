@@ -43,7 +43,7 @@ a	b	c = a AND b
 AND Gate
 
 .. image:: img/and_gate.png
-    :width:20%
+    :width: 20%
     :align: left
 
 
@@ -67,7 +67,7 @@ a	b	c = a OR b
 OR Gate
 
 .. image:: img/or_gate.png
-    :width:20%
+    :width: 20%
     :align: left
 
 
@@ -88,7 +88,7 @@ a	c = NOT a
 NOT Gate
 
 .. image:: img/not_gate.png
-    :width:20%
+    :width: 20%
     :align: left
 
 
