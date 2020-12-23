@@ -54,6 +54,8 @@ AND Gate
 |
 |
 |
+|
+|
 
 
 OR Operation
@@ -77,6 +79,8 @@ OR Gate
 .. image:: img/or_gate.png
     :width: 20%
     :align: left
+|
+|
 |
 |
 |
@@ -115,7 +119,8 @@ NOT Gate
 |
 |
 |
-
+|
+|
 
 Laws of Boolean Algebra
 =======================
