@@ -45,7 +45,15 @@ AND Gate
 .. image:: img/and_gate.png
     :width: 20%
     :align: left
-
+|
+|
+|
+|
+|
+|
+|
+|
+|
 
 
 OR Operation
@@ -69,7 +77,15 @@ OR Gate
 .. image:: img/or_gate.png
     :width: 20%
     :align: left
-
+|
+|
+|
+|
+|
+|
+|
+|
+|
 
 
 NOT Operation
@@ -90,7 +106,15 @@ NOT Gate
 .. image:: img/not_gate.png
     :width: 20%
     :align: left
-
+|
+|
+|
+|
+|
+|
+|
+|
+|
 
 
 Laws of Boolean Algebra
