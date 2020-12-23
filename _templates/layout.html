@@ -1,0 +1,20 @@
+{# Import the theme's layout. #}
+{% extends "!layout.html" %}
+
+{% block sidebartitle %}
+
+{% if logo and theme_logo_only %}
+  <a href="https://redpitaya.readthedocs.io/en/latest/index.html">
+{% else %}
+  <a href="https://redpitaya.readthedocs.io/en/latest/index.html" class="icon icon-home"> {{ project }}
+{% endif %}
+
+{% if logo %}
+  {# Not strictly valid HTML, but it's the only way to display/scale it properly, without weird scripting or heaps of work #}
+  <img src="{{ pathto('_static/' + logo, 1) }}" class="logo" />
+{% endif %}
+</a>
+
+{% include "searchbox.html" %}
+
+{% endblock %}
