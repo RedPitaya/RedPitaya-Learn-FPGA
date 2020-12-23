@@ -29,19 +29,19 @@ Go to the downloaded ZIP location and extract it. You will enter the fpga folder
     make project PRJ=v0.94
 
 .. image:: img/comandoslinux.png
-    :height: 400px
+    :width: 50%
     :align: center
 
 For this project you will only have to edit the **red_pitaya_top.sv** file. In the beggining of the file edit the port **led_o** assignment. Write the port as an **output logic**.
 
 .. image:: img/outputled1.png
-    :height: 400px
+    :width: 50%
     :align: center
 
 Now edit this part of the file and comment the **led_o** port.
 
 .. image:: img/commentled.png
-    :height: 400px
+    :width: 50%
     :align: center
 
 Finally insert this code at the end of the module that has a purpose of led blinking. Input that before **endmodule: red_pitaya_top**.
@@ -61,25 +61,25 @@ Finally insert this code at the end of the module that has a purpose of led blin
 
 
 .. image:: img/codigoled.png
-    :height: 400px
+    :width: 50%
     :align: center
 
 Now you have to start Synthesis, Implementation and Write bitstream. Press the button to start the synthesization.
 
 .. image:: img/sith.png
-    :height: 400px
+    :width: 50%
     :align: center
 
 After finished synthesis. Start Implementation.
 
 .. image:: img/implementation.png
-    :height: 400px
+    :width: 50%
     :align: center
 
 Finished Implementation. Start Write bitstream.
 
 .. image:: img/bitstream.png
-    :height: 400px
+    :width: 50%
     :align: center
 
 Now you have the bitstream file **red_pitaya_top.bit** located in .../fpga/prj/v0.94/project/repitaya.runs/impl_1
