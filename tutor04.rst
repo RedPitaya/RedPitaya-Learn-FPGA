@@ -46,6 +46,8 @@ AND Gate
     :height: 200px
     :align: left
 
+
+
 OR Operation
 ------------
 
@@ -68,6 +70,8 @@ OR Gate
     :height: 200px
     :align: left
 
+
+
 NOT Operation
 -------------
 
@@ -86,6 +90,8 @@ NOT Gate
 .. image:: img/not_gate.png
     :height: 200px
     :align: left
+
+
 
 Laws of Boolean Algebra
 =======================
