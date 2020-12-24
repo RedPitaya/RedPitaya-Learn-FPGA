@@ -25,10 +25,15 @@ Go to the downloaded ZIP location and extract it. You will enter the fpga folder
     cd Downloads/
     cd RedPitaya-master/
     cd fpga/
-    . /opt/Xilinx/Vivado/2017.2/settings64.sh
-    make project PRJ=v0.94
+    . /opt/Xilinx/Vivado/2020.1/settings64.sh
+    make project PRJ=v0.94 MODEL=Z10
 
-.. image:: img/comandoslinux.png
+.. note::
+
+    In order to open a project for model RP 122-16 or RP 250-12, you need to specify MODEL=Z20 or MODEL=Z20_250 as a parameter.
+
+
+.. image:: img/Screen9.png
     :width: 50%
     :align: center
 
