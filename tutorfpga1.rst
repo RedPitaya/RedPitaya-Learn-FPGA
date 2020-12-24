@@ -8,7 +8,7 @@ This installation tutorial is intended for who want to use the FPGA of the Red P
 Install Vivado
 **************
 
-Download `Vivado HLx 2017.2: WebPACK and Editions - Linux Self Extracting Web Installer <Vivado HLx 2017.2: WebPACK and Editions - Linux Self Extracting Web Installer>`_ . If you don't have an Xilinx account you will have to create one, it's free. 
+Download `Vivado HLx 2017.2: WebPACK and Editions - Linux Self Extracting Web Installer <https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vivado-design-tools/2020-1.html>`_ . If you don't have an Xilinx account you will have to create one, it's free. 
 
 .. image:: img/Screen1.png
     :width: 50%
