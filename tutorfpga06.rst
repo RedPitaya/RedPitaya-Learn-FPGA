@@ -48,7 +48,7 @@ There are also the forms of the case block that are **casez** and **casex**. The
 Forever and Repeat Loops
 ========================
 
-They are used for test and simulation and cannot be synthesized. The **forever** loop executes continuously and don't stop. The loop **repeat** executes in a finite amount of time.
+They are used for test and simulation and cannot be synthesized. The **forever** loop executes continuously and doesn't stop. The loop **repeat** executes in a finite amount of time.
 
 forever
 -------

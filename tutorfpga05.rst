@@ -11,7 +11,7 @@ In Verilog the statements that are outside an always or initial block are called
     
     wire out = a + b; // Implicit statement
 
-Wich is equal to:
+Which is equal to:
 
 .. code-block:: Verilog
     
