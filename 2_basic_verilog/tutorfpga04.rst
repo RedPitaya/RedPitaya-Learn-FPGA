@@ -1,5 +1,5 @@
 ﻿###################
-Verilog - Operators
+Operators
 ###################
 
 Arithmetic Operators

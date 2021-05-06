@@ -1,5 +1,5 @@
 ﻿##############################
-Verilog - Statements and Loops
+Statements and Loops
 ##############################
 
 Behavioral statements are declared inside an **always** or **initial** block. There are three possible statements, **if-else** **case** and **loop**.

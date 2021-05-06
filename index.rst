@@ -18,13 +18,7 @@ such as radar, radio systems, vector-network-analyzer, etc
     :numbered: 
 
     ./1_basic_systems/top.rst
-    tutorfpga01.rst
-    tutorfpga02.rst
-    tutorfpga03.rst
-    tutorfpga04.rst
-    tutorfpga05.rst
-    tutorfpga06.rst
-    tutorfpga07.rst
+    ./2_basic_verilog/top.rst
     tutorfpga1.rst
     tutorfpga2.rst
     fpgaexample01.rst

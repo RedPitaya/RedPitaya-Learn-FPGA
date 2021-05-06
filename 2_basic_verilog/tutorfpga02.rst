@@ -1,5 +1,5 @@
 ﻿######################
-Verilog - Introduction 
+Introduction 
 ######################
 
 Introduction

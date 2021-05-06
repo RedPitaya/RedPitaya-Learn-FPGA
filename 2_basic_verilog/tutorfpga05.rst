@@ -1,5 +1,5 @@
 ﻿#####################
-Verilog - Assignments
+Assignments
 #####################
 
 Continuous Assignment Statements

@@ -1,5 +1,5 @@
 ﻿#############################
-Verilog - Tasks and Functions
+Tasks and Functions
 #############################
 
 Tasks and functions are used to reduce code repetition. If in your project you need to do something many times it is better to use a task or a function that will reduce code writing and it will be more readable.

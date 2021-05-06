@@ -1,5 +1,5 @@
 ﻿################
-Verilog - Values
+Values
 ################
 
 Port Types
