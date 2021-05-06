@@ -17,7 +17,7 @@ such as radar, radio systems, vector-network-analyzer, etc
     :maxdepth: 2                                                                                                                      
     :numbered: 
 
-    1_basic_systems/top.rst
+    ./1_basic_systems/top.rst
     tutorfpga01.rst
     tutorfpga02.rst
     tutorfpga03.rst

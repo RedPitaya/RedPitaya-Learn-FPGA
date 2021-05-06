@@ -1,4 +1,5 @@
-﻿Introduction
+﻿############
+Introduction
 ############
 
 This will be a series of general topics about the concepts of digital systems and programmable logic. A digital system 
