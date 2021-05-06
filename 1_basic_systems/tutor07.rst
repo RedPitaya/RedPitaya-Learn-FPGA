@@ -1,6 +1,5 @@
-﻿########################################
-Basics of Digital Systems - Karnaugh Map
-########################################
+﻿Karnaugh Map
+############
 
 This is a graphical method to simplify Boolean functions. It consists in grouping the terms of a truth table and to simplify it to use the fewer terms as possible. Let’s start with the OR function.
 
@@ -31,7 +30,7 @@ The Karnaugh map is formed with the terms of the truth table:
 
 Karnaugh Map
 
-.. image:: img/karnaughOR.png
+.. image:: ./../img/karnaughOR.png
     :height: 200px
     :align: center
 
@@ -60,7 +59,7 @@ a	b	c	f(a,b,c)
 
 Karnaugh Map
 
-.. image:: img/karnaughfunction.png
+.. image:: ./../img/karnaughfunction.png
     :height: 200px
     :align: center
 
@@ -97,7 +96,7 @@ a	b	c	d	f(a,b,c,d)
 
 Karnaugh Map
 
-.. image:: img/karnaughfunction4var.png
+.. image:: ./../img/karnaughfunction4var.png
     :height: 300px
     :align: center
 

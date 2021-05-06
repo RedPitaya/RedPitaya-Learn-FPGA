@@ -1,6 +1,5 @@
-﻿########################################################################
-Basics of Digital Systems - Mathematical Operations with the Binary Base
-########################################################################
+﻿Mathematical Operations with the Binary Base
+############################################
 
 
 Operations with binary base are equal the decimal base. The difference is when we need to store numbers in a finite amount of bits. Let’s do some operations with 8 bits, where the MSB is the signal bit and the others 7 bits are the bits of numerical value.

@@ -1,6 +1,5 @@
-﻿###########################################
-Basics of Digital Systems - Boolean Algebra
-###########################################
+﻿Boolean Algebra
+###############
 
 It is a branch of algebra where the values of the variables are 0 and 1, or false and true respectively. There are only three operations, the logical conjunction denoted as ∧ or X, logical disjunction denoted as ∨ or + and logical negation denoted as ¬ or !. In this text we will use X, + and ! respectively as the logic gates and, or and negation. 
 
@@ -42,7 +41,7 @@ a	b	c = a AND b
 
 AND Gate
 
-.. image:: img/and_gate.png
+.. image:: ./../img/and_gate.png
     :width: 20%
     :align: left
 |
@@ -76,7 +75,7 @@ a	b	c = a OR b
 
 OR Gate
 
-.. image:: img/or_gate.png
+.. image:: ./../img/or_gate.png
     :width: 20%
     :align: left
 |
@@ -107,7 +106,7 @@ a	c = NOT a
 
 NOT Gate
 
-.. image:: img/not_gate.png
+.. image:: ./../img/not_gate.png
     :width: 20%
     :align: left
 |

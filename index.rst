@@ -14,16 +14,10 @@ introduction to the FPGA programming and ultimately for building powerful profes
 such as radar, radio systems, vector-network-analyzer, etc
 
 .. toctree::                                                                                                                          
-    :maxdepth: 1                                                                                                                      
+    :maxdepth: 2                                                                                                                      
     :numbered: 
 
-    tutor01.rst
-    tutor02.rst
-    tutor03.rst
-    tutor04.rst
-    tutor05.rst
-    tutor06.rst   
-    tutor07.rst   
+    1_basic_systems/top.rst
     tutorfpga01.rst
     tutorfpga02.rst
     tutorfpga03.rst

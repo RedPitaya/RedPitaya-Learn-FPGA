@@ -1,12 +1,11 @@
-﻿#############################################
-Basics of Digital Systems - Boolean Functions
-#############################################
+﻿Boolean Functions
+#################
 
 A Boolean function is a function that has n variables or entries, so it has :math:`2^n` possible combinations of the variables. These functions will assume only 0 or 1 in its output. An example of a Boolean function is this, f(a,b,c) = a X b + c. These functions are implemented with the logic gates.
 
 Digital circuit of f(a,b,c)
 
-.. image:: img/function.png
+.. image:: ./../img/function.png
     :height: 200px
     :align: center
  

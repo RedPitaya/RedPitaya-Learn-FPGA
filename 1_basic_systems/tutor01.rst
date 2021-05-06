@@ -1,6 +1,5 @@
-﻿########################################
-Basics of Digital Systems - Introduction
-########################################
+﻿Introduction
+############
 
 This will be a series of general topics about the concepts of digital systems and programmable logic. A digital system 
 is a system made up by logic gates, which transforms logic input into a logic output with a logic function. Memories, processors, cellphones and all kind of electronics have digital circuits, logic gates are the building blocks 

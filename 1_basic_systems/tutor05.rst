@@ -1,6 +1,5 @@
-﻿#######################################
-Basics of Digital Systems - Other Gates
-#######################################
+﻿Other Gates
+###########
 
 There are other logic gates that are made from the 3 basic gates. Their functions are commonly used and that is why they are represented as gates.
 
@@ -22,7 +21,7 @@ a	b	c = a NAND b
 
 NAND Gate
 
-.. image:: img/2000px-Nand-gate-en.png
+.. image:: ./../img/2000px-Nand-gate-en.png
     :height: 100px
     :align: center
 
@@ -44,7 +43,7 @@ a	b	c = a NOR b
 
 NOR Gate
 
-.. image:: img/1200px-NOR_ANSI_Labelled.svg.png
+.. image:: ./../img/1200px-NOR_ANSI_Labelled.svg.png
     :height: 100px
     :align: center
 
@@ -64,7 +63,7 @@ a	b	c = a XOR b
 
 XOR Gate
 
-.. image:: img/Xor-gate-en.svg.png
+.. image:: ./../img/Xor-gate-en.svg.png
     :height: 100px
     :align: center
 
@@ -84,7 +83,7 @@ a	b      c = a XNOR b
 
 XNOR Gate
 
-.. image:: img/2000px-Xnor-gate-en.svg.png
+.. image:: ./../img/2000px-Xnor-gate-en.svg.png
     :height: 100px
     :align: center
 
