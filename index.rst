@@ -19,9 +19,8 @@ such as radar, radio systems, vector-network-analyzer, etc
 
     ./1_basic_systems/top.rst
     ./2_basic_verilog/top.rst
-
-    fpgaexample01.rst
-    simple.rst
+    ./3_vivado_env/top.rst
+    ./4_lessons/top.rst
     advanced.rst
 
     

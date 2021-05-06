@@ -1,6 +1,6 @@
-﻿################################
-FPGA Example - Simple Calculator
-################################
+﻿#################
+Simple Calculator
+#################
 
 This example will show how to build a calculator. We will use the **case** statement and a implement a new module called calculator. We will use wires to connect the 3.3 V of redpitaya to change the values of the inputs. You will need to build a raw project of red pitaya Github, in the way of the "led blink" example. The project is the v.094.
 
@@ -17,7 +17,7 @@ Clone FPGA GitHub repository
 
 Go to the `Red Pitaya GitHub <https://github.com/RedPitaya/RedPitaya>`_ site, and download the ZIP folder of this project.
  
-.. image:: img/clonerepo1.png
+.. image:: ./../img/clonerepo1.png
     :height: 200px
     :align: center
 
@@ -35,7 +35,7 @@ Go to the downloaded ZIP location and extract it. You will enter the fpga folder
     . /opt/Xilinx/Vivado/2017.2/settings64.sh
     make project PRJ=v0.94
 
-.. image:: img/comandoslinux.png
+.. image:: ./../img/comandoslinux.png
     :height: 400px
     :align: center
 
@@ -98,7 +98,7 @@ Edit top file
 
 You will have to edit the **red_pitaya_top.sv** file. Comment led and exp part as in the image.
 
-.. image:: img/fpga_example_comments.png
+.. image:: ./../img/fpga_example_comments.png
     :height: 400px
     :align: center
 
@@ -117,7 +117,7 @@ Now insert this code in "red_pitaya_top.sv" .
         .out             (led_o           )  // output
         );
 
-.. image:: img/red_pitaya_top_code_insert.png
+.. image:: ./../img/red_pitaya_top_code_insert.png
     :height: 400px
     :align: center
 
