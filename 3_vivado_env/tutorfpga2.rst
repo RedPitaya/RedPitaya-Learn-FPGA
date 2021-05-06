@@ -10,7 +10,7 @@ Clone FPGA GitHub repository
 
 Go to the `Red Pitaya GitHub <https://github.com/RedPitaya/RedPitaya>`_ site, and download the ZIP folder of this project.
  
-.. image:: img/clonerepo1.png
+.. image:: ./../img/clonerepo1.png
     :height: 200px
     :align: center
 
@@ -33,19 +33,19 @@ Go to the downloaded ZIP location and extract it. You will enter the fpga folder
     In order to open a project for model RP 122-16 or RP 250-12, you need to specify MODEL=Z20 or MODEL=Z20_250 as a parameter.
 
 
-.. image:: img/Screen9.png
+.. image:: ./../img/Screen9.png
     :width: 50%
     :align: center
 
 For this project you will only have to edit the **red_pitaya_top.sv** file. In the beggining of the file edit the port **led_o** assignment. Write the port as an **output logic**.
 
-.. image:: img/outputled1.png
+.. image:: ./../img/outputled1.png
     :width: 50%
     :align: center
 
 Now edit this part of the file and comment the **led_o** port.
 
-.. image:: img/commentled.png
+.. image:: ./../img/commentled.png
     :width: 50%
     :align: center
 
@@ -65,25 +65,25 @@ Finally insert this code at the end of the module that has a purpose of led blin
     assign led_o[0] = led; // assign the register to the led output
 
 
-.. image:: img/codigoled.png
+.. image:: ./../img/codigoled.png
     :width: 50%
     :align: center
 
 Now you have to start Synthesis, Implementation and Write bitstream. Press the button to start the synthesization.
 
-.. image:: img/sith.png
+.. image:: ./../img/sith.png
     :width: 50%
     :align: center
 
 After finished synthesis. Start Implementation.
 
-.. image:: img/implementation.png
+.. image:: ./../img/implementation.png
     :width: 50%
     :align: center
 
 Finished Implementation. Start Write bitstream.
 
-.. image:: img/bitstream.png
+.. image:: ./../img/bitstream.png
     :width: 50%
     :align: center
 

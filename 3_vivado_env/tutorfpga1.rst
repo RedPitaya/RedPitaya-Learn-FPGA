@@ -10,7 +10,7 @@ Install Vivado
 
 Download `Vivado Design Suite 2020.1 - HLx Editions - Linux Self Extracting Web Installer <https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vivado-design-tools/2020-1.html>`_ . If you don't have an Xilinx account you will have to create one, it's free. 
 
-.. image:: img/Screen1.png
+.. image:: ./../img/Screen1.png
     :width: 50%
     :align: center
 
@@ -23,7 +23,7 @@ Now you have to run the downloaded file for installation. Open a terminal, go to
     sudo ./Xilinx_Unified_2020.1_0602_1208_Lin64.bin
 
 
-.. image:: img/Screen2.png
+.. image:: ./../img/Screen2.png
     :width: 50%
     :align: center
 
@@ -31,7 +31,7 @@ Now you have to run the downloaded file for installation. Open a terminal, go to
 
 It will open this installation wizard. Click Next.
 
-.. image:: img/Screee3.png
+.. image:: ./../img/Screee3.png
     :width: 50%
     :align: center
 
@@ -39,7 +39,7 @@ It will open this installation wizard. Click Next.
 
 Insert your Xilinx ID and password. Check **Download and install Now**. Click Next.
 
-.. image:: img/Screen4.png
+.. image:: ./../img/Screen4.png
     :width: 50%
     :align: center
 
@@ -47,20 +47,20 @@ Insert your Xilinx ID and password. Check **Download and install Now**. Click Ne
 
 Check all the boxes. Click Next.
 
-.. image:: img/Screen5.png
+.. image:: ./../img/Screen5.png
     :width: 50%
     :align: center
 
 
 Check **Vivado HL WebPACK**. Click Next.
 
-.. image:: img/Screen6.png
+.. image:: ./../img/Screen6.png
     :width: 50%
     :align: center
 
 Check all the boxes in the next image. Uncheck Ultrascale and Ultrascale+ you don't need them. Click Next.
 
-.. image:: img/Screen7.png
+.. image:: ./../img/Screen7.png
     :width: 50%
     :align: center
 
@@ -70,7 +70,7 @@ Check the information and click Install. Now wait for the download and Installat
 
 It will open the license manager, and you will have to get the free WebPACK license file. Click **Connect Now** or **Save Link As**. This will open the Xilinx license manager site and you have to follow instructions to generate the **ISE WebPACK license**. You will receive the license file on your registered e-mail. After that click in **Load License** and click **Copy License** to copy your **.lic** file to register Vivado.
 
-.. image:: img/Screen8.png
+.. image:: ./../img/Screen8.png
     :width: 50%
     :align: center
 
