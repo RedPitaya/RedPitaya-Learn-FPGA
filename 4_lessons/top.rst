@@ -10,4 +10,4 @@ FPGA lessons
    FreqCounter.rst
    fpgaexample01.rst
    SimpleAvarage.rst
-   `Laboratory for Integrated Circuit Design <https://lniv.fe.uni-lj.si/redpitaya/>`_
+   Laboratory for Integrated Circuit Design <https://lniv.fe.uni-lj.si/redpitaya/>
