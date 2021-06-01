@@ -35,7 +35,6 @@ extensions = [
     'sphinx.ext.mathjax',
     'sphinx.ext.imgmath',
     'sphinx.ext.todo',
-    'sphinx_tabs.tabs',
     'github',
     'sphinx.ext.intersphinx',
 ]
@@ -155,11 +154,7 @@ html_context = {
         'css_files': [
             'https://media.readthedocs.org/css/sphinx_rtd_theme.css',
             'https://media.readthedocs.org/css/readthedocs-doc-embed.css',
-            '_static/page_width.css',
-            '_static/sphinx_tabs/tabs.css',
-            '_static/sphinx_tabs/semantic-ui-2.4.1/segment.min.css',
-            '_static/sphinx_tabs/semantic-ui-2.4.1/menu.min.css',
-            '_static/sphinx_tabs/semantic-ui-2.4.1/tab.min.css',
+            '_static/page_width.css'
         ],
     }
 
